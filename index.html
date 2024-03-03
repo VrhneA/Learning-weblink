@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content=" IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VARHANE WEBSITE</title>
+    <style>
+        html, body {
+            padding: 0;
+            margin: 0;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .box-terluar {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: 500px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0 auto;
+            height: 100vh;
+            background-image: url("gambar1.jpeg")
+        }
+        .box-saya {
+            display: flex;
+            flex-direction: column;
+            justify-content center;
+            align-items: center;
+            color: black;
+            padding-top: 15;
+            padding-bottom: 15px;
+        }
+        .box-saya img {
+            border-radius: 50%;
+            width: 180px;
+            height: 180px;
+            cursor: pointer;
+            margin-bottom: 10px;
+            TE
+        }
+        .box-link {
+            display: flex;
+            flex-direction: column;
+            border: none;
+            width: 80%;
+            gap: 8px;
+            height:
+        }
+        .box-link button {
+            background-color: white;
+            border: none;
+            padding: 8px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: 400ms ease-in-out;
+        }
+        .box-link button:hover {
+            background-color: #333333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="box-terluar">
+        <div class="box-saya">
+            <img src="saya.jpg" />
+            <h1>LENTHERA VARHANE</h1>
+            <p>TECH ENTHUSIAST</p>
+        </div>
+        <div class="box-link">
+            <button onclick="hayu('https://Instagram.com/varhaneac')">Instagram</button>
+            <button onclick="hayu('https://www.facebook.com/share/iDbFbnsx7YPtbm6R/?mibextid=qi2Omg')">Facebook</button>
+            <button onclick="hayu('https://youtube.com/@varhane?si=E-ad9DenCaudPPQD')">Youtube</button>
+            <button onclick="hayu('https://x.com/Lenthera1?t=ok-6WCobHPN7nMZ6rgeDww&s=09')">Twitter</button>
+        </div>
+    </div>
+    <script>
+        function hayu(kemana) {
+        window.open(kemana)
+        }
+    </script>
+</body>
+
+</html>
